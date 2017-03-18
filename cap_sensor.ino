@@ -1,10 +1,8 @@
 #include <LiquidCrystal.h>
 
 /*
- Use bigger resistor
-use series cap 
- oscilloscope? analogreadin?
- capsense library
+Hook a serial resistor(100k) and unknown capacitor to digital pin 10 and ground.
+After 10s of starting the arduino, it will print the capacitor value (in uF ?)
 */
 unsigned long cap_charge_time = 0;
 unsigned long start_time = 0;
