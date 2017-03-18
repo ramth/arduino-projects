@@ -36,9 +36,9 @@ delay(10000);
   if(display_flag && start) {
 
     cap_value = (double)cap_charge_time*1.3/(90.9876);
-    //lcd.clear();
-    //lcd.setCursor(0,0);
-    //lcd.print((int)cap_value);
+    lcd.clear();
+    lcd.setCursor(0,0);
+    lcd.print((int)cap_value);
     Serial.println((int)cap_charge_time);
     display_flag = false;
     start = false;
