@@ -19,7 +19,7 @@ void setup(){
   pinMode(10,OUTPUT);
   attachInterrupt(0,dig_high,RISING);
   
-  //lcd.begin(16,2);
+ /lcd.begin(16,2);
 }
 
 void loop() {
